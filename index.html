@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>roningrp.co.ke</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", century gothic}
+   
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("images/dark\ background.jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 30px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><strong>RONIN GROUP | KE</strong></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa-solid fa-wrench"></i>  SERVICES</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa-solid fa-user"></i></i>  OUR TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa-solid fa-image"></i>  PICTORIALS</a>
+     
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa-solid fa-phone"></i></i>  CONTACT US</a>
+     
+<!-- dark mode -->
+  <title>Dark/Light Mode Toggle</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <button id="modeToggle"><i class="fa-solid fa-lightbulb"></i>  DARK</i></button>
+  <script src="script.js"></script>
+  <style>
+  body {
+  background-color: #fff; /* Light mode background color */
+  color: #000; /* Light mode text color */
+  transition: background-color 0.3s ease;
+  }
+
+body.dark-mode {
+  background-color: #222; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+ }
+
+ button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0px;
+  margin-right: 12px;
+  
+  margin-top: 20px;
+  text-align: center;
+  background-color: orange;
+  border-color: none;
+  
+  color: white; 
+ }
+</style>
+  <script>
+    const modeToggleBtn = document.getElementById('modeToggle');
+    const body = document.body;
+    modeToggleBtn.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');
+    });
+  </script>
+</div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-blue-gray w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">CLOSE</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">OUR TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PICTORIALS</a>
+  
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <!-- search bar -->
+  
+  <!-- end -->
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Hello There!</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Hello There!</span><br>
+    <span class="w3-large">Welcome to Ronin Group, your premier destination for comprehensive networking solutions, cutting-edge web development services, and top-notch IT technical support.<br> As a leading company in the industry, we pride ourselves on delivering exceptional expertise and tailored solutions to meet your business needs.<br> Whether you're seeking to optimize your network infrastructure, create stunning websites, or ensure smooth operations through reliable IT support, our team of skilled professionals is committed to empowering your success.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"><i class="fa-solid fa-bars"></i>  ORDER HERE</a></p>
+    
+  </div> 
+  
+</header>
+
+<!-- About Section -->
+
+<div class="w3-container  w3-light-grey" style="padding:28px 16px" id="about">
+  <h3 class="w3-center" style="color: blue;"><strong>OUR SERVICES</strong></h3>
+  <p class="w3-center w3-large">Here is a summary of RONIN GROUP company's SERVICES & PRODUCTS</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large" style="color: blue;"><strong>Web design and development</strong></p>
+      <p>A website expresses a business's brand consistently, it makes it easier to navigate and helps customers more clearly identify the visual elements of a brand as a specific company and its products or services.<br>
+        LET US DESIGN AND BUILD YOUR WEB TODAY.</p>
+    </div>
+ 
+    <div class="w3-quarter">
+      <i class="fa fa-satellite-dish w3-margin-bottom w3-jumbo "></i>
+      <p class="w3-large" style="color: blue;"><strong>Networking</strong></p>
+      <p>A networking service is a low- or high-level application that enables the network to perform more than basic functions. Some examples of networking services include NTP, DNS, DHCP, VoIP, File and Directory, Hardware Sharing, Email, and Website Hosting.<br>
+      CONTACT US AND LET US WALK YOU THROUGH YOUR NETWORKING NEEDS</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-wrench w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large" style="color: blue;"><strong>IT Support</strong></p>
+      <p>At ronin group we offer all the technical support from installations,maintenance,upgrades and even consultancy.<br>
+         HAVING ANY PROBLEM,WANT AN UPGRADE LET US FIX THAT FOR YOU!</p>
+    </div> 
+    <div class="w3-quarter">
+        <i class="fa fa-wechat w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large"style="color: blue;"><strong>Digital Consultancy& Marketting</strong></p>
+        <p>We offer digital marketing and consultancy in the tech field.<br>
+          NEED A TECH CONSULTANT? FEEL FREE TO SEND US A MESSAGE.</p>
+      </div>
+  </div>
+  <!-- modal -->
+  <center>
+  <h3 class="w3-center" style="color: blue; font-size: 16px;"><strong>Want to join our membership club? Login or Sign-up here for free!  <i class="fa-solid fa-face-smile"></i></strong></h3>
+  <button id="openModal"><i class="fa-solid fa-people-group"></i> LOG IN</button>
+  <div id="modal" class="modal">
+    <!-- login -->
+    <div class="container5">
+      <form action="/action_page.php" target="_blank">
+      <span class="close"><i class="fa-solid fa-circle-xmark"></i></span>
+      <label for="username"><b><i class="fa-solid fa-user"></i>  Username</b></label>
+      <input type="text" placeholder="Enter your username" name="username" required>
+      <label for="email"><b><i class="fa-solid fa-envelope"></i>  Email</b></label>
+      <input type="text" placeholder="Enter your email" name="email" required>
+      <label for="password"><b><i class="fa-solid fa-lock"></i>  Password</b></label>
+      <input type="password" name="password" placeholder="Enter your password" autocomplete="current-password" required="" id="id_password"><i class="far fa-eye" id="togglePassword" style="margin-left: -50px; cursor: pointer; margin-right: 30px;"></i>
+     <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#id_password');
+        togglePassword.addEventListener('click', function (e) {
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        this.classList.toggle('fa-eye-slash');
+       });
+      </script>
+    <button type="submit">Submit</button>
+      <span><u>sign up</u></span><br>
+      
+
+      </form>
+      <style>
+          .container5 {
+            width: 500px;
+            padding: 40px;
+            background-color:white;
+           
+            margin: 0 auto;
+            margin-top: 130px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: blue;
+            font-family: century gothic;
+            border-radius: 20px;
+            border-color: orange;
+           
+        }
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            
+        }
+       
+        button {
+        
+            padding: 10px 24px;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 5px;
+            color: white;
+            padding: 8px 28px;
+            margin: 16px 8;
+            
+            border: none;
+            cursor: pointer;
+            width: auto;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+
+      </style>
+  </div>
+    <div class="modal-content">
+      
+      <h2>  </h2>
+      <p>  </p>
+    </div>
+  </center>
+    <style>
+      .modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+.close {
+  color:red;
+  
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 380px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+  <script>
+      document.getElementById("openModal").addEventListener("click", function() {
+      document.getElementById("modal").style.display = "block";
+     });
+
+      document.getElementsByClassName("close")[0].addEventListener("click", function() {
+      document.getElementById("modal").style.display = "none";
+     });
+
+     window.addEventListener("click", function(event) {
+     if (event.target == document.getElementById("modal")) {
+     document.getElementById("modal").style.display = "none";
+     }
+     });
+
+  </script>
+</div>
+</div>
+<hr>
+<!-- products -->
+<!-- all about payments stars here -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ONLINE SHOP</title>
+  <style>
+    .product {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+      font-family: century gothic;
+    }
+
+    .product img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .product-info {
+      margin-top: 10px;
+      color: green;
+    }
+
+    .product-price {
+      font-weight: bold;
+    }
+
+    .product-stock {
+      color: #999;
+    }
+
+    .cart {
+      margin-top: 10px;
+      text-align: center;
+      margin-bottom: 10px;
+      color:blue;
+      
+      
+    }
+
+    .cart-items {
+      font-weight: bold;
+    }
+
+    .pay-btn {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 10px 24px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3 class="w3-center" style="color: blue;"><strong>ONLINE SHOP</strong></h3>
+<img>
+  <div class="product">
+    <img src="images/tl-3420-1.jpg" alt="tl-3420-1" style="width:100%">
+    <p class="w3-opacity">TP-LINK ROUTER</p>
+    <div class="product-info">
+      <span class="product-price">PRICE: Kshs 1,800</span><br>
+      <span class="product-stock">STOCK: 300</span>
+    </div>
+    <input type="checkbox" name="product" value="1,800">
+  </div>
+
+  <div class="product">
+    <img src="images/UNIFI AP.jpeg" alt="UNIFI" style="width:100%">
+    <p class="w3-opacity">UNIFI ACCESS POINT</p>
+    <div class="product-info">
+      <span class="product-price">PRICE: Kshs 28,000</span><br>
+      <span class="product-stock">STOCK: 200</span>
+    </div>
+    <input type="checkbox" name="product" value="28,000">
+  </div>
+
+  <div class="product">
+    <img src="images/network-switch-with-cables.jpg" alt="awitch" style="width:100%">
+    <p class="w3-opacity">NETWORK SWITCH</p>
+    <div class="product-info">
+      <span class="product-price">PRICE: Kshs 35,000</span><br>
+      <span class="product-stock">STOCK: 100</span>
+    </div>
+    <input type="checkbox" name="product" value="35,000">
+  </div>
+
+  <div class="product">
+    <img src="images/pw beam m5.jpeg" alt="PW" style="width:100%">
+    <p class="w3-opacity">POWER BEAM</p>
+    <div class="product-info">
+      <span class="product-price">PRICE: Kshs 28,000</span><br>
+      <span class="product-stock">STOCK: 50</span>
+    </div>
+    <input type="checkbox" name="product" value="28,000">
+  </div>
+
+  <div class="product">
+    <img src="images/utp.jpeg" alt="UTP" style="width:100%">
+    <p class="w3-opacity">UTP OUTDOOR</p>
+    <div class="product-info">
+      <span class="product-price">PRICE: Kshs 3,500</span><br>
+      <span class="product-stock">STOCK: 50</span>
+    </div>
+    <input type="checkbox" name="product" value="3,500">
+  </div>
+
+  <div class="product">
+    <img src="images/ubiquiti m5.png" alt="UBIQUITI" style="width:100%">
+    <p class="w3-opacity">Ubiquiti M5</p>
+    <div class="product-info">
+      <span class="product-price">PRICE: Kshs 8,000</span><br>
+      <span class="product-stock">STOCK: 100</span>
+    </div>
+    <input type="checkbox" name="product" value="8,000">
+  </div>
+  
+  <div class="cart">
+    <h2><i class="fa-solid fa-cart-shopping"></i>  Cart</h2>
+    <span class="cart-items">ITEMS ORDERED: 0</span><br>
+    <span>TOTAL PRICE: KSH <span id="total-price">0</span></span><br>
+    <a href="#" class="pay-btn"><i class="fa-solid fa-truck-fast"></i>  ORDER</a>
+    <!-- payment -->
+    
+<html>
+<head>
+  <style>
+    /* Styling for the modal popup */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      
+    }
+
+    .modal-content {
+      background-color: rgb(25, 22, 46);
+      margin: 15% auto;
+      padding: 66px;
+      border: 1px solid #888;
+      width: 80%;
+      color: white;
+      border-radius: 10px;
+      border-color: orange;
+    }
+
+    .close {
+      color:red;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+/* POP UP AFTER SUBMITTING NUMBER */
+    .popup {
+  position: fixed;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(25, 22, 46); ;
+  border: 1px solid #888;
+  padding: 20px;
+  z-index: 2;
+  padding: 100px;
+  font-size: 23px;
+  font-family: century gothic;
+  text-align: center;
+  border-radius: 10px;
+  border-color: orange;
+}
+
+  </style>
+  <button id="myBtn"><i class="fa-solid fa-circle-check"></i>  CASHOUT</button>
+
+  <!-- The Modal -->
+  
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1 class="w3-left-align;" style="color: blue; font-size: 22px;"><strong>SELECT PAYMENT MODE</strong></h1>
+      <p>Please select your preferred payment Mode:</p>
+      <input type="radio" name="paymentMethod" value="cashless"> CASH<br>
+      <input type="radio" name="paymentMethod" value="mobileMoney"> M-PESA
+      <br>
+      <input type="text" id="mobileNumberInput" style="display: none;" placeholder="Enter mobile number">
+      <button id="submitBtn">Submit</button>
+    </div>
+  </div>
+
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // Get the input field for the mobile number
+    var mobileNumberInput = document.getElementById("mobileNumberInput");
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    };
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    // When the user clicks outside the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+
+    // Show the mobile number input field when "Mobile Money Transfer" is selected
+    var paymentMethodRadios = document.getElementsByName("paymentMethod");
+    for (var i = 0; i < paymentMethodRadios.length; i++) {
+      paymentMethodRadios[i].addEventListener("change", function () {
+        if (this.value === "mobileMoney") {
+          mobileNumberInput.style.display = "block";
+        } else {
+          mobileNumberInput.style.display = "none";
+        }
+      });
+    }
+
+    // ...
+
+// Get the submit button
+var submitBtn = document.getElementById("submitBtn");
+
+// When the user clicks the submit button
+submitBtn.onclick = function () {
+  // Close the modal
+  modal.style.display = "none";
+  
+  // Show the thank you popup
+  var thankYouPopup = document.createElement("div");
+  thankYouPopup.className = "popup";
+  thankYouPopup.innerHTML = "Thank you for shopping with RONIN GROUP.";
+  document.body.appendChild(thankYouPopup);
+  
+  // Close the thank you popup after 3 seconds
+  setTimeout(function() {
+    thankYouPopup.style.display = "none";
+    document.body.removeChild(thankYouPopup);
+  }, 3000);
+};
+
+    
+  </script>
+  <!-- MODAL AFTER SUBMISSION OF NUMBER -->
+  
+
+  </div>
+
+  <script>
+    // Add event listener to the checkboxes
+    var checkboxes = document.querySelectorAll('input[name="product"]');
+    checkboxes.forEach(function(checkbox) {
+      checkbox.addEventListener('change', function() {
+        updateCart();
+      });
+    });
+
+    // Update the shopping cart
+    function updateCart() {
+      var total = 0;
+      var count = 0;
+
+      checkboxes.forEach(function(checkbox) {
+        if (checkbox.checked) {
+          total += parseInt(checkbox.value);
+          count++;
+        }
+      });
+
+      document.getElementById('total-price').textContent = total;
+      document.querySelector('.cart-items').textContent = 'Items: ' + count;
+    }
+  </script>
+</body>
+<hr>
+<!-- ends here all about orders -->
+
+<!-- let us work for you -->
+<div class="w3-container w3-light-grey" style="padding:28px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6" >
+      <h3><strong>LET US WORK FOR YOU.</strong></h3>
+      <p>We understand that running a successful business requires juggling multiple responsibilities, and technology shouldn't be one of your worries.<br> That's why we're here to take the burden off your shoulders and handle all your networking, web development, and IT support needs.</p>
+      <p><a href="#work" class="w3-button w3-blue-grey"><i class="fa-solid fa-image"></i> </i>PICTORIALS  </a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="images/net cables.jpg" alt="network cables" width="540" height="394px">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<hr>
+<div class="w3-container " style="padding:28px 16px" id="team">
+  <h3 class="w3-center" style="color: blue;"><strong> OUR TEAM</strong></h3>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card" style="position:static;">
+        <img src="images/ronald matiko.jpg" alt="ron" style="width:100%">
+        <div class="w3-container">
+          <h3>MATIKO RONALD</h3>
+          <p class="w3-opacity">CEO & Founder,MD</p>
+          <p>Lead company's Technician & Programmer.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa-solid fa-message"></i> Message</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/dad.jpg" alt="dad" style="width:100%">
+        <div class="w3-container">
+          <h3>DR. MATIKO MWITA</h3>
+          <p class="w3-opacity">Stakeholder</p>
+          <p>The pockets behind the company.Top Manager</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa-solid fa-message"></i> Message</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/kwekwe.jpg" alt="kwekwe" style="width:100%">
+        <div class="w3-container">
+          <h3>KWEKWE NELLIE</h3>
+          <p class="w3-opacity">Human Resource Manager</p>
+          <p>My lovely sister always there for me.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa-solid fa-message"></i> Message</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/deanna.jpg" alt="deanna" style="width:100%">
+        <div class="w3-container">
+          <h3>DEANNA CHEP</h3>
+          <p class="w3-opacity">Influencer</p>
+          <p>Lead company's social media influencer.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa-solid fa-message"></i> Message</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+
+<!-- Work Section -->
+<hr>
+<div class="w3-container" style="padding:28px 16px" id="work">
+  <h3 class="w3-center" style="color: blue;"><strong>COMPANY'S PICTORIALS</strong></h3>
+  <p class="w3-center w3-large">What we've done for our clients</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="images/sector antenna.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="sector antennas installation" width="540" height="194px">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/integration.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="network integration" height="194px">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/net cables.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="network cables" height="194px">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/p2p.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="p2p installation" height="194px">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="images/web dev.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Web development" height="194px">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/telecommunication masts.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="telecommunication mast" height="194px">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<hr>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:28px 16px" id="contact">
+  <h3 class="w3-center" style="color: blue;"><strong>CONTACT US</strong></h3>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ruiru, KENYA</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +254787492838, +254768032893</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>matikoron1@gmail.com</p>
+    <br>
+  <!-- write to us -->
+<form action="/action_page.php" target="_blank">
+  <style>
+    body {
+      font-family:century gothic;
+      font-size: 16px;
+      
+    }
+
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      color: blue;
+      
+      
+    }
+   
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: normal;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      height: 50px;
+      color: gray;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: grey;
+      
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left:40%;
+      
+    }
+
+    input[type="submit"]:hover {
+      background-color: orange;
+    }
+
+  </style>
+  <div class="container">
+    <center>
+    <h1><strong>Write to Us!</strong></h1>
+    </center>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name"><i class="fa-solid fa-user"></i>  name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email"><i class="fa-solid fa-envelope"></i>  email:</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message"><i class="fa-solid fa-message"></i>  message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</form>  
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+<!-- footer starts here -->
+ 
+<footer class="footer">
+  
+  <div class="container1">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-address-card"></i>  about us</a></li>
+          <li><a href="#"><i class="fa-solid fa-wrench"></i>  our services</a></li>
+          <li><a href="#"><i class="fa-solid fa-user-lock"></i>  privacy policy</a></li>
+          <li><a href="#"><i class="fa-solid fa-square-check"></i>  affiliate program</a></li>
+        </ul>
+      </div>
+   
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-computer"></i>  software</a></li>
+          <li><a href="#"><i class="fa-solid fa-microchip"></i>  hardware</a></li>
+          <li><a href="#"><i class="fa-solid fa-screwdriver-wrench"></i>  maintenance</a></li>
+          <li><a href="#"><i class="fa-solid fa-person-circle-question"></i>  consultancy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
